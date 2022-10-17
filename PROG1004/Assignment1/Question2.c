@@ -2,7 +2,7 @@
 
 int main()
 {
-    int  init_mm, m, dm, cm, mm;
+    int  init_mm, m, dm, cm, mm, rem;
 
     printf("Please enter the amount of millimeters (mm): ");
     scanf("%d", &init_mm);
@@ -12,14 +12,17 @@ int main()
     //Get the number of meters
     m = mm/1000;
 
+    //Get the remainder of mm
+    rem = mm%1000;
+
     //Get the number of decimeters
-    dm = (mm%1000)/100;
+    dm = rem/100;
 
     //Get the number of centimeters
-    cm = ((mm%1000)%100)/10;
+    cm = (rem%100)/10;
 
     //Get the number of millimeters
-    mm = ((mm%1000)%(100))%10;
+    mm = (rem%100)%10;
 
     printf("%d millimeters = \n", init_mm);
     printf("%d meters\n", m);
