@@ -4,7 +4,7 @@ The Diagram below shows the Force acting on a car as it moves around a banked ro
 Assuming g is the gravitational constant 9.8 m/s2, 𝜃 𝑖𝑠 𝑖𝑛 𝑑𝑒𝑔𝑟𝑒𝑒𝑠, 𝜇𝑠 is the coefficient of 
 friction between the road and tyre (no units), r is the radius of curve.  
 
-![Question 1 Image](Images/Question-1-Img.png)  
+![Question 1 Image](Images/Question1.png)  
 
 Write a program in C to find the maximum speed 𝑉𝑚𝑎𝑥 of the car while driving on the 
 incline.  
